@@ -42,6 +42,10 @@ section{
     background-size: cover;
     min-height: 100vh;
 }
+.navbar-brand{
+    color: #bea67c !important;
+    font-weight: 600;
+}
 .main_header h2{
     color: #bea67c;
     font-size: 100px;
@@ -49,9 +53,15 @@ section{
 }
 .header-btn{
     background-color: rgba(0, 0, 0, 0.1);
-    color: #fff;
+    color: #bea67c;
+    border-color: #bea67c;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+.header-btn:hover{
+    background-color: #bea67c;
+    color: #000;
+    border-color: #000;
 }
 .scrollToTop{
     position: fixed;
