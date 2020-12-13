@@ -69,6 +69,11 @@ section{
     outline: none;
     transition: all .5s;
 }
+/*========================================INNER_HEADER==============================================*/
+.inner-header{
+    background: url("../img/header_2_bg.jpg") center no-repeat;
+    background-size: cover;
+}
 /*========================================SECTION_ABOUT=============================================*/
 .section_about a:hover h3{
     color: #bea67c;
@@ -90,11 +95,14 @@ section{
 /*=========================================SHOP=================================================*/
 
 /*===========================================VIDEO==============================================*/
-
+.section_video{
+    margin-bottom: 0;
+}
 /*=====================================ABOUT US=================================================*/
 
 /*===================================MAIN-FOOTER===================================================*/
 .main_footer{
+    margin: 0 auto;
     color: #424242;
     background: url("../img/footer_bg.jpg") center no-repeat;
     background-size: cover;
