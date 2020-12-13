@@ -15,6 +15,7 @@ a{
 }
 a:hover{
     text-decoration: none;
+    color: #bea67c;
 }
 section{
     padding-top: 20px;
@@ -126,7 +127,17 @@ section{
     font-weight: 600;
     text-transform: uppercase;
 }
+/*===========================================Blog page===============================================*/
 
+/*=====================================Single page=================================================*/
+.blockquote{
+    padding-left: 20px;
+    color: #000;
+    font-style: italic;
+}
+.blockquote-footer{
+    color: #bea67c;
+}
 
 
 
