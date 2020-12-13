@@ -4,13 +4,10 @@ $(function (){
             $(this).attr('style', 'display: none !important');
         });
     });
-    baguetteBox.run('.gallery', {
-        animation: 'fadeIn',
-        noScrollbars: true
-    });
+
 
     $(window).scroll(function( ){
-        if ($(this).scrollTop() > 300) {
+        if ($(this).scrollTop() > 600) {
             $('.scrollToTop').fadeIn();
         } else {
             $('.scrollToTop').fadeOut();

@@ -226,7 +226,16 @@ section{
 .blockquote{
     padding-left: 20px;
     color: #000;
+    font-size: 20px;
     font-style: italic;
+}
+.blockquote p::before{
+    content: '"';
+    color: #bea67c;
+}
+.blockquote p::after{
+    content: '"';
+    color: #bea67c;
 }
 .blockquote-footer{
     color: #bea67c;
