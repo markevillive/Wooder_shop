@@ -1,4 +1,26 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: WOODER - eCommerce HTML Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+ CSS INDEX
+    ===================
+    1. Template default CSS
+    2. Header style
+
+    3. Footer style
+        3.1. main-footer
+    4.Pages Style
+        4.1 index page
+            4.1.1
+
+
+
+-----------------------------------------------------------------------------------*/
+
 @import "calendar.css";
+/*======================================1. Template default CSS=======================*/
 body{
     font-family: 'Montserrat', sans-serif;
     color: #464646;
@@ -80,8 +102,9 @@ section{
 .scrollToTop:visited{
     outline: none;
 }
+/*====================================2. Header style=======================================*/
 
-/*===================================MAIN-HEADER=============================================*/
+/*==============2.1. main-header==============*/
 .main_header{
     color: #fff;
     background: url("../img/header_bg.jpg") center no-repeat;
@@ -116,12 +139,41 @@ section{
     border-color: #000;
 }
 
-/*========================================INNER_HEADER==============================================*/
+/*==============2.2. inner-header==============*/
 .inner-header{
     background: url("../img/header_2_bg.jpg") center no-repeat;
     background-size: cover;
 }
-/*========================================SECTION_ABOUT=============================================*/
+/*========================================3. Footer style=============================================*/
+/*==============3.1. main-footer==============*/
+.main_footer{
+    margin: 0 auto;
+    color: #424242;
+    background: url("../img/footer_bg.jpg") center no-repeat;
+    background-size: cover;
+}
+.main_footer h6{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_footer p{
+    margin-top: 20px;
+}
+.name_white{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.name_red{
+    color: #ff0000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*========================================4. Pages style=============================================*/
+/*=======================4.1 index.html=======================*/
+/*==================Section_about==================*/
 .section_about a:hover h3{
     color: #bea67c;
 
@@ -233,32 +285,7 @@ section{
 }
 /*=====================================ABOUT US=================================================*/
 
-/*===================================MAIN-FOOTER===================================================*/
-.main_footer{
-    margin: 0 auto;
-    color: #424242;
-    background: url("../img/footer_bg.jpg") center no-repeat;
-    background-size: cover;
-}
-.main_footer h6{
-    color: #fff;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.main_footer p{
-    margin-top: 20px;
-}
-.name_white{
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.name_red{
-    color: #ff0000;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+
 /*===========================================Blog page===============================================*/
 
 /*=====================================Single page=================================================*/
