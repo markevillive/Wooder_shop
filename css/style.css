@@ -279,7 +279,603 @@ section{
 .blockquote-footer{
     color: #bea67c;
 }
+/*===================================LOGIN-REGISTER PAGE=============================*/
+.section-header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.login-register-content{
+    margin-bottom: 100px;
+    padding: 50px;
+}
+/*-------- 26. Login register style ---------*/
+.login-register-wrap h3 {
+    font-size: 20px;
+    margin: 0;
+    color: #1D1D1D;
+}
 
+.login-register-wrap h3 i {
+    margin-right: 10px;
+}
+
+.login-register-wrap h3 a {
+    color: #bea67c;
+}
+
+.login-register-wrap h3 a:hover {
+    color: #bea67c;
+    text-decoration: underline;
+}
+
+.login-register-wrap .login-register-form {
+    margin: 30px 0 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .login-register-wrap .login-register-form {
+        margin: 10px 0 0;
+    }
+}
+
+.login-register-wrap .login-register-form .sin-login-register {
+    margin: 0 0 10px;
+
+}
+
+.login-register-wrap .login-register-form .sin-login-register input {
+    background: transparent;
+    border: 1px solid #CDCDCD;
+    width: 100%;
+    height: 70px;
+    padding: 5px 20px;
+    color: #777;
+}
+
+@media only screen and (max-width: 767px) {
+    .login-register-wrap .login-register-form .sin-login-register input {
+        height: 50px;
+    }
+}
+
+.login-register-wrap .login-register-form .sin-login-register input:focus {
+    border: 1px solid #262626;
+}
+
+.login-register-btn button {
+    border: none;
+    padding: 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1;
+    margin-right: 7px;
+}
+
+@media only screen and (max-width: 767px) {
+    .login-register-btn button {
+        margin-bottom: 10px;
+    }
+}
+
+.login-register-btn button.login {
+    padding: 18px 50px;
+    background-color: #262626;
+}
+
+.login-register-btn button.login-fb {
+    padding: 18px 30px;
+    background-color: #435DA7;
+}
+
+.login-register-btn button:hover {
+    background-color: #ff6e21;
+}
+
+.remember-lost-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 23px 0 45px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 767px) {
+    .remember-lost-wrap {
+        display: block;
+        margin: 12px 0 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .remember-lost-wrap {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        margin: 22px 0 25px;
+    }
+}
+
+.remember-lost-wrap .remember-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .remember-lost-wrap .remember-wrap {
+        display: block;
+    }
+}
+
+.remember-lost-wrap .remember-wrap input {
+    width: 16px;
+    height: auto;
+}
+
+.remember-lost-wrap .remember-wrap label {
+    line-height: 1;
+    margin: 0 0 0 10px;
+    color: #1D1D1D;
+}
+
+.remember-lost-wrap .lost-wrap a {
+    line-height: 1;
+    color: #D25B5B;
+}
+
+.remember-lost-wrap .lost-wrap a:hover {
+    text-decoration: underline;
+}
+
+.register-form-wrap {
+    display: none;
+}
+.bg-black{
+    background-color: #000;
+}
+/*===========================================*/
+/*-------- 9. Subscribe style ---------*/
+.subscribe-title {
+    margin-left: 36px;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .subscribe-title {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .subscribe-title {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .subscribe-title {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-title {
+        margin-left: 0px;
+        text-align: center;
+    }
+}
+
+.subscribe-title h3 {
+    color: #fff;
+    margin: 0;
+    font-size: 36px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .subscribe-title h3 {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-title h3 {
+        font-size: 30px;
+    }
+}
+
+.subscribe-form .mc-form {
+    position: relative;
+}
+
+.subscribe-form .mc-form > input {
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #858585;
+    background-color: transparent;
+    height: 42px;
+    padding: 2px 100px 2px 0;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form .mc-form > input {
+        font-size: 14px;
+        padding: 2px 80px 2px 0;
+    }
+}
+
+.subscribe-form .mc-form .mc-news {
+    display: none;
+}
+
+.subscribe-form .mc-form .clear {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.subscribe-form .mc-form .clear input {
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    padding: 0;
+    background-color: transparent;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form .mc-form .clear input {
+        font-size: 14px;
+    }
+}
+
+.subscribe-form .mc-form .clear input:hover {
+    color: #ccc;
+}
+
+.subscribe-form.subscribe-mrg-1 {
+    margin: 0 34px 0 66px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .subscribe-form.subscribe-mrg-1 {
+        margin: 15px 0px 0 0px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form.subscribe-mrg-1 {
+        margin: 15px 0px 0 0px;
+    }
+}
+
+.subscribe-pt {
+    padding-top: 115px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-pt {
+        padding-top: 112px;
+    }
+}
+
+.subscribe-pb {
+    padding-bottom: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-pb {
+        padding-bottom: 50px;
+    }
+}
+
+.subscribe-title-2 h3 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0 0 24px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-title-2 h3 {
+        font-size: 23px;
+    }
+}
+
+.subscribe-form-2 .mc-form-2 {
+    position: relative;
+}
+
+.subscribe-form-2 .mc-form-2 input {
+    height: 90px;
+    background-color: #fff;
+    color: #393939;
+    font-size: 16px;
+    border: none;
+    padding: 2px 160px 2px 50px;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 0px 12px rgba(199, 199, 199, 0.5);
+    box-shadow: 0px 0px 12px rgba(199, 199, 199, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-2 .mc-form-2 input {
+        height: 60px;
+        font-size: 14px;
+        padding: 2px 125px 2px 14px;
+    }
+}
+
+.subscribe-form-2 .mc-form-2 .mc-news-2 {
+    display: none;
+}
+
+.subscribe-form-2 .mc-form-2 .clear-2 {
+    position: absolute;
+    right: 13px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.subscribe-form-2 .mc-form-2 .clear-2 input {
+    width: auto;
+    height: auto;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 30px;
+    background-color: #ff6e21;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.subscribe-form-2 .mc-form-2 .clear-2 input:hover {
+    background-color: #262626;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-2 .mc-form-2 .clear-2 input {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+}
+
+.subscribe-form-2 .mc-form-2.mc-form-2-modify input {
+    border: 2px solid #d8d8d8;
+}
+
+.subscribe-form-2 .mc-form-2.mc-form-2-modify .clear-2 input {
+    border: none;
+    background-color: #f2c456;
+}
+
+.subscribe-form-2 .mc-form-2.mc-form-2-modify .clear-2 input:hover {
+    background-color: #262626;
+}
+
+.subscribe-form-2 .mc-form-2.mc-form-2-modify .clear-2.organic-clear-2 input {
+    background-color: #3cd53f;
+}
+
+.subscribe-form-2 .mc-form-2.mc-form-2-modify .clear-2.organic-clear-2 input:hover {
+    background-color: #262626;
+}
+
+.subscribe-title-3 h3 {
+    font-size: 36px;
+    margin: 0;
+    color: #1b1b1b;
+    font-family: "Rufina", serif;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-title-3 h3 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-title-3.mb-30 {
+        margin-bottom: 10px;
+    }
+}
+
+.subscribe-form-3 .mc-form-3 {
+    position: relative;
+}
+
+.subscribe-form-3 .mc-form-3 input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #1b1b1b;
+    font-size: 18px;
+    color: #1b1b1b;
+    padding: 2px 150px 2px 0;
+    height: 60px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-3 .mc-form-3 input {
+        font-size: 14px;
+        padding: 2px 104px 2px 0;
+        height: 50px;
+    }
+}
+
+.subscribe-form-3 .mc-form-3 .mc-news-3 {
+    display: none;
+}
+
+.subscribe-form-3 .mc-form-3 .clear-3 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+}
+
+.subscribe-form-3 .mc-form-3 .clear-3 input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    height: auto;
+    color: #1b1b1b;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-3 .mc-form-3 .clear-3 input {
+        font-size: 14px;
+    }
+}
+
+.subscribe-form-3 .mc-form-3 .clear-3 input:hover {
+    color: #ff6e21;
+}
+
+.subscribe-form-4 .mc-form-4 {
+    position: relative;
+}
+
+.subscribe-form-4 .mc-form-4 input {
+    background-color: transparent;
+    border: 2px solid #38866f;
+    font-size: 18px;
+    color: #515151;
+    padding: 2px 150px 2px 28px;
+    height: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-4 .mc-form-4 input {
+        font-size: 14px;
+        padding: 2px 100px 2px 15px;
+        height: 50px;
+    }
+}
+
+.subscribe-form-4 .mc-form-4 .mc-news-4 {
+    display: none;
+}
+
+.subscribe-form-4 .mc-form-4 .clear-4 {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 20px;
+}
+
+.subscribe-form-4 .mc-form-4 .clear-4 input {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0;
+    height: auto;
+    color: #515151;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-form-4 .mc-form-4 .clear-4 input {
+        font-size: 14px;
+    }
+}
+
+.subscribe-form-4 .mc-form-4 .clear-4 input:hover {
+    color: #777;
+}
+
+.instagram-border-radious {
+    border-radius: 220px;
+}
+
+.subscribe-pets-ptb {
+    padding: 145px 0 150px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-pets-ptb {
+        padding: 70px 0 70px;
+    }
+}
+
+.subscribe-form-5 .subscribe-form-style-5 .mc-form-5 {
+    position: relative;
+}
+
+.subscribe-form-5 .subscribe-form-style-5 .mc-form-5 input {
+    background-color: transparent;
+    color: #262626;
+    height: 70px;
+    border: 1px solid #262626;
+    padding: 2px 60px 2px 20px;
+}
+
+.subscribe-form-5 .subscribe-form-style-5 .mc-form-5 .mc-news-5 {
+    display: none;
+}
+
+.subscribe-form-5 .subscribe-form-style-5 .mc-form-5 .clear-5 {
+    display: inline-block;
+    position: absolute;
+    right: 2px;
+    top: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    width: 50px;
+    border: none;
+    padding: 0;
+    z-index: 99;
+    background: rgba(0, 0, 0, 0) url("../../assets/images/icon-img/mail.png") no-repeat scroll right 18px center;
+}
+
+.subscribe-form-5 .subscribe-form-style-5 .mc-form-5 .clear-5 input {
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 2px 5px 2px;
+}
+
+@media only screen and (max-width: 767px) {
+    .subscribe-area.pt-70 {
+        padding-top: 40px;
+    }
+    .subscribe-area.pb-80 {
+        padding-bottom: 50px;
+    }
+}
+
+/*=======================================My-account page==================================*/
+.my-account-content{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 
 
