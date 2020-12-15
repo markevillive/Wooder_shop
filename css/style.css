@@ -115,6 +115,7 @@ section{
     color: #bea67c !important;
     font-weight: 600;
 }
+
 .navbar-toggler i{
  color: #bea67c;
 }
@@ -138,7 +139,19 @@ section{
     color: #000;
     border-color: #000;
 }
-
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-menu .dropdown-item{
+    color: #fff;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #bea67c;
+    color: #000;
+}
+.dropdown-menu .dropdown-item:active{
+    background-color: #bea67c;
+}
 /*==============2.2. inner-header==============*/
 .inner-header{
     background: url("../img/header_2_bg.jpg") center no-repeat;
@@ -879,7 +892,7 @@ section{
     border: none;
     padding: 0;
     z-index: 99;
-    background: rgba(0, 0, 0, 0) url("../../assets/images/icon-img/mail.png") no-repeat scroll right 18px center;
+    background: rgba(0, 0, 0, 0) url("../img/icon-img/mail.png") no-repeat scroll right 18px center;
 }
 
 .subscribe-form-5 .subscribe-form-style-5 .mc-form-5 .clear-5 input {
