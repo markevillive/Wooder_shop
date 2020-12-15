@@ -7,7 +7,7 @@ $(function (){
 
 
     $(window).scroll(function( ){
-        if ($(this).scrollTop() > 600) {
+        if ($(this).scrollTop() > 200) {
             $('.scrollToTop').fadeIn();
         } else {
             $('.scrollToTop').fadeOut();
@@ -19,4 +19,12 @@ $(function (){
         return false;
 
     });
+    $('.register-active').on('click', function(e) {
+        e.preventDefault();
+        $('.register-form-wrap').slideToggle(900);
+    });
+    $('#myTab a').on('click', function (e) {
+        e.preventDefault()
+        $(this).tab('show')
+    })
 });
