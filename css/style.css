@@ -1,7 +1,38 @@
+/*-----------------------------------------------------------------------------------
+
+    Template Name: WOODER - eCommerce HTML Template
+    Version: 1.0
+
+-----------------------------------------------------------------------------------
+ CSS INDEX
+    ===================
+    1. Template default CSS
+    2. Header style
+
+    3. Footer style
+        3.1. main-footer
+    4.Pages Style
+        4.1 index page
+            4.1.1
+
+
+
+-----------------------------------------------------------------------------------*/
+
 @import "calendar.css";
+/*======================================1. Template default CSS=======================*/
+
+
+
 body{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     color: #464646;
+}
+.main-container{
+    flex: 1;
 }
 img{
     max-width: 100%;
@@ -80,8 +111,9 @@ section{
 .scrollToTop:visited{
     outline: none;
 }
+/*====================================2. Header style=======================================*/
 
-/*===================================MAIN-HEADER=============================================*/
+/*==============2.1. main-header==============*/
 .main_header{
     color: #fff;
     background: url("../img/header_bg.jpg") center no-repeat;
@@ -92,6 +124,7 @@ section{
     color: #bea67c !important;
     font-weight: 600;
 }
+
 .navbar-toggler i{
  color: #bea67c;
 }
@@ -115,25 +148,80 @@ section{
     color: #000;
     border-color: #000;
 }
-
-/*========================================INNER_HEADER==============================================*/
+.dropdown-menu{
+    background-color: #000;
+}
+.dropdown-menu .dropdown-item{
+    color: #fff;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: #bea67c;
+    color: #000;
+}
+.dropdown-menu .dropdown-item:active{
+    background-color: #bea67c;
+}
+/*==============2.2. inner-header==============*/
 .inner-header{
     background: url("../img/header_2_bg.jpg") center no-repeat;
     background-size: cover;
 }
-/*========================================SECTION_ABOUT=============================================*/
+/*========================================3. Footer style=============================================*/
+/*==============3.1. main-footer==============*/
+.main_footer{
+
+}
+.main_footer{
+    width: 100%;
+    margin: 0 auto;
+    color: #424242;
+    background: url("../img/footer_bg.jpg") center no-repeat;
+    background-size: cover;
+}
+.main_footer h6{
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main_footer p{
+    margin-top: 20px;
+}
+.name_white{
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.name_red{
+    color: #ff0000;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+/*========================================4. Pages style=============================================*/
+/*=======================4.1 index.html=======================*/
+/*==================Section_about==================*/
 .section_about a:hover h3{
     color: #bea67c;
 
 }
 .more{
     color: #000;
-    text-decoration: underline 2px #bea67c ;
     font-size: 14px;
     font-weight: 500;
     text-transform: uppercase;
     display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+
+.more{
+    text-decoration-line: underline;
+    text-decoration-style: solid 2px;
+    text-decoration-color: #bea67c;
+}
+
+
+
 .more:hover{
     color: #bea67c;
     text-decoration: none;
@@ -233,32 +321,7 @@ section{
 }
 /*=====================================ABOUT US=================================================*/
 
-/*===================================MAIN-FOOTER===================================================*/
-.main_footer{
-    margin: 0 auto;
-    color: #424242;
-    background: url("../img/footer_bg.jpg") center no-repeat;
-    background-size: cover;
-}
-.main_footer h6{
-    color: #fff;
-    font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.main_footer p{
-    margin-top: 20px;
-}
-.name_white{
-    color: #fff;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.name_red{
-    color: #ff0000;
-    font-weight: 600;
-    text-transform: uppercase;
-}
+
 /*===========================================Blog page===============================================*/
 
 /*=====================================Single page=================================================*/
@@ -852,7 +915,7 @@ section{
     border: none;
     padding: 0;
     z-index: 99;
-    background: rgba(0, 0, 0, 0) url("../../assets/images/icon-img/mail.png") no-repeat scroll right 18px center;
+    background: rgba(0, 0, 0, 0) url("../img/icon-img/mail.png") no-repeat scroll right 18px center;
 }
 
 .subscribe-form-5 .subscribe-form-style-5 .mc-form-5 .clear-5 input {
@@ -876,11 +939,41 @@ section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
+/*===========================================404 style=====================================*/
+.section-404{
+    background: url("../img/error.png") center no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.error-content {
+    margin-top: 120px;
+}
+.error-content h1 {
+    font-size: 250px;
+    color: #ff0000;
+    margin: 0;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.error-content h3 {
+    font-size: 64px;
+    color: #ff0000;
+    margin: 0px 0 70px;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.error-content .btn-light{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border: #bea67c solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
 
-
-
-
-
+}
+.error-content .btn-light:hover{
+    background-color: #bea67c;
+    border: #000 solid 2px;
+}
 
 
 
@@ -941,6 +1034,13 @@ section{
 
 
 }
+@media only screen and (max-width: 568px){
+    .error-content h1{
+        font-size: 150px;
+    }
+
+
+}
 @media only screen and (max-width: 540px){
 
 }
@@ -971,12 +1071,27 @@ section{
     }
 
 }
+@media only screen and (max-width: 422px) {
+    .error-content h3{
+        font-size: 30px;
+    }
 
+}
 @media only screen and (max-width: 380px){
 
 }
+@media only screen and (max-width: 366px){
+    .error-content h1{
+        font-size: 100px;
+    }
+}
 @media only screen and (max-width : 360px)  {
 
+}
+@media only screen and (max-width : 346px)  {
+    .error-content .btn-light{
+        font-size: 15px;
+    }
 }
 @media only screen and (max-width : 320px)  {
 
@@ -986,6 +1101,11 @@ section{
     .main_header h2{
         font-size: 40px;
 
+    }
+}
+@media only screen and (max-width : 250px)  {
+    .error-content h1{
+        font-size: 50px;
     }
 }
 
