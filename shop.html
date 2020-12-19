@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Custom</title>
+    <meta name="robots" content="noindex, follow" />
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <title>Shop</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <style>
+        .preloader{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1002;
+            background-color: #000;
+        }
+
+    </style>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="preloader d-flex justify-content-center align-items-center"><!---PRELOADER--->
+    <div class="spinner-border text-warning" style="width: 10rem; height: 10rem; " role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div><!------------------------END PRELOADER----------------->
+<button class="scrollToTop"><i class="fas fa-angle-up"></i></button>
+<header class="inner-header">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="index.html">Wooder</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+                <li class="nav-item ">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link " href="single.html">Single</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Pages
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="login-register.html">Login / Register</a>
+                        <a class="dropdown-item" href="404.html">404</a>
+                        <a class="dropdown-item" href="custom.html">Custom</a>
+                        <a class="dropdown-item" href="my-account.html">My account</a>
+                        <a class="dropdown-item" href="index-hebr.html">דף הבית</a>
+                        <a class="dropdown-item" href="shop.html">Shop</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<div class="main-container">
+<section class="section-shop">
+    <header class="section-header">
+        <div class="container-fluid">
+            <div class="hader-content text-center">
+                <h1>Shop</h1>
+            </div><!-----------END HEADER-CONTENT--------------------------->
+
+        </div><!-------------------------END CONTAINER-FLUID-------------------------->
+    </header>
+    <div class="shop-content">
+        <div class="container-fluid">
+            <div class="shop-top-bar">
+                <div class="shop-top-bar-left">
+                    <div class="shop-page-list">
+                        <ul>
+                            <li>Show</li>
+                            <li class="active"><a href="#">9</a> /</li>
+                            <li><a href="#">12</a> / </li>
+                            <li><a href="#">18</a> / </li>
+                            <li><a href="#">24</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shop-top-bar-right">
+                    <div class="shop-tab nav">
+                        <a href="#shop-1" data-toggle="tab"><i class=" ti-view-list-alt "></i></a>
+                        <a href="#shop-2" class="active" data-toggle="tab"><i class=" ti-layout-grid4"></i></a>
+                        <a href="#shop-3" data-toggle="tab"><i class="ti-layout-grid3"></i></a>
+                    </div>
+                    <div class="shop-short-by ml-40">
+                        <span>Default sorting <i class="fa fa-angle-down angle-down"></i></span>
+                        <ul>
+                            <li class="active"><a href="#">Default sorting</a></li>
+                            <li><a href="#">Sort by popularity</a></li>
+                            <li><a href="#">Sort by average rating</a></li>
+                            <li><a href="#">Sort by latest</a></li>
+                            <li><a href="#">Sort by price: low to high</a></li>
+                            <li><a href="#">Sort by price: high to low</a></li>
+                        </ul>
+                    </div>
+                    <div class="shop-filter ml-25">
+                        <a class="shop-filter-active" href="#">Filters <i class="fa fa-angle-down angle-down"></i></a>
+                    </div>
+                </div>
+            </div><!-------------------------------------------END shop-top-bar------------------------------------>
+            <div class="product-filter-wrapper">
+                <div class="row">
+                    <!-- Product Filter -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 mb-20">
+                        <div class="product-filter">
+                            <h5>Price</h5>
+                            <div class="price-filter">
+                                <ul>
+                                    <li><a href="#">$0.00 - $20.00</a></li>
+                                    <li><a href="#">$20.00 - $40.00</a></li>
+                                    <li><a href="#">$30.00 - $50.00</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Filter -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 mb-20">
+                        <div class="product-filter">
+                            <h5>Size</h5>
+                            <div class="product-size">
+                                <ul>
+                                    <li><a href="#">Full Size</a></li>
+                                    <li><a href="#">L</a></li>
+                                    <li><a href="#">M</a></li>
+                                    <li><a href="#">S</a></li>
+                                    <li><a href="#">XL</a></li>
+                                    <li><a href="#">XXL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Filter -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 mb-20">
+                        <div class="product-filter">
+                            <h5>Color</h5>
+                            <div class="product-color">
+                                <ul>
+                                    <li><a href="#">Blue</a></li>
+                                    <li><a href="#">Brown</a></li>
+                                    <li><a href="#">Green</a></li>
+                                    <li><a href="#"> Pink</a></li>
+                                    <li><a href="#">Violet</a></li>
+                                    <li><a href="#"> White</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Filter -->
+                    <div class="col-md-3 col-sm-6 col-xs-12 mb-20">
+                        <div class="product-filter">
+                            <h5>Brands</h5>
+                            <div class="product-brands">
+                                <ul>
+                                    <li><a href="#">Airi</a></li>
+                                    <li><a href="#">Draven</a></li>
+                                    <li><a href="#">Mango</a></li>
+                                    <li><a href="#"> Valentino</a></li>
+                                    <li><a href="#">Zara </a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!---END PRODUCT-FILTER-WRAPPER-------------------------------->
+            <div class="tab-content jump-3 pt-30">
+                <div id="shop-1" class="tab-pane padding-55-row-col">
+                    <div class="shop-list-wrap mb-50">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div class="product-wrap">
+                                    <div class="product-img pro-theme-color-border product-border">
+                                        <a href="product-details.html">
+                                            <img src="img/product/e-product-img-1.jpg" alt="">
+                                        </a>
+                                        <div class="shop-list-quickview">
+                                            <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-6 col-12">
+                                <div class="shop-list-content">
+                                    <h3><a href="#">Adapt Active Noise Cancelling Headphones</a></h3>
+                                    <div class="pro-list-price">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam libero ac turpis pharetra, in vehicula scelerisque. Vestibulum ut sem laoreet, feugiat tellus at, hendrerit arcu.</p>
+                                    <div class="product-list-action">
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <div class="pro-list-actioncart">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-list-wrap mb-50">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div class="product-wrap">
+                                    <div class="product-img pro-theme-color-border product-border">
+                                        <a href="product-details.html">
+                                            <img src="img/product/e-product-img-2.jpg" alt="">
+                                        </a>
+                                        <div class="shop-list-quickview">
+                                            <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-6 col-12">
+                                <div class="shop-list-content">
+                                    <h3><a href="#">iPhone 11 Case, Heavy Duty [Military Grade] </a></h3>
+                                    <div class="pro-list-price">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam libero ac turpis pharetra, in vehicula scelerisque. Vestibulum ut sem laoreet, feugiat tellus at, hendrerit arcu.</p>
+                                    <div class="product-list-action">
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <div class="pro-list-actioncart">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-list-wrap mb-50">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div class="product-wrap">
+                                    <div class="product-img pro-theme-color-border product-border">
+                                        <a href="product-details.html">
+                                            <img src="img/product/e-product-img-3.jpg" alt="">
+                                        </a>
+                                        <div class="shop-list-quickview">
+                                            <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-6 col-12">
+                                <div class="shop-list-content">
+                                    <h3><a href="#">Libratone Track Air+ True Wireless Active Noise</a></h3>
+                                    <div class="pro-list-price">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam libero ac turpis pharetra, in vehicula scelerisque. Vestibulum ut sem laoreet, feugiat tellus at, hendrerit arcu.</p>
+                                    <div class="product-list-action">
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <div class="pro-list-actioncart">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-list-wrap mb-50">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                                <div class="product-wrap">
+                                    <div class="product-img pro-theme-color-border product-border">
+                                        <a href="product-details.html">
+                                            <img src="img/product/e-product-img-4.jpg" alt="">
+                                        </a>
+                                        <div class="shop-list-quickview">
+                                            <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-6 col-sm-6 col-12">
+                                <div class="shop-list-content">
+                                    <h3><a href="#">Acer Aspire C24-865-UA91 AIO Desktop</a></h3>
+                                    <div class="pro-list-price">
+                                        <span>$50.00</span>
+                                    </div>
+                                    <p>Donec accumsan auctor iaculis. Sed suscipit arcu ligula, at egestas magna molestie a. Proin ac ex maximus, ultrices justo eget, sodales orci. Aliquam libero ac turpis pharetra, in vehicula scelerisque. Vestibulum ut sem laoreet, feugiat tellus at, hendrerit arcu.</p>
+                                    <div class="product-list-action">
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <div class="pro-list-actioncart">
+                                            <a title="Add to cart" href="#">Add to cart</a>
+                                        </div>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop-2" class="tab-pane active padding-55-row-col">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-1.jpg" alt="">
+                                    </a>
+                                    <span class="badge-green badge-right-20 badge-top-20 badge-ptb-1">NEW</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Adapt Active Noise Cancelling Headphones</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$59.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-2.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iPhone 11 Case, Heavy Duty [Military Grade] </a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$20.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-3.jpg" alt="">
+                                    </a>
+                                    <span class="badge-theme-color badge-right-20 badge-top-20 badge-ptb-1">-25%</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Libratone Track Air+ True Wireless Active Noise</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$59.99</span>
+                                        <span class="new-price">$35.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-4.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Acer Aspire C24-865-UA91 AIO Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$50.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-5.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iBUYPOWER Gaming PC Computer Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-6.jpg" alt="">
+                                    </a>
+                                    <span class="badge-theme-color badge-right-20 badge-top-20 badge-ptb-1">-30%</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Andoer Gimbal 3-Axis Handheld Stabilizer</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$70.99</span>
+                                        <span class="new-price">$66.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-7.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Acer Aspire TC-885-UA92 Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$90.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-8.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Polaroid ZIP Wireless Mobile Photo Mini Printer</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-9.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">CyberpowerPC Gamer Xtreme VR Gaming PC</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$70.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-10.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">External DVD CD Drive, Aluminum</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$70.99</span>
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-11.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">SkyTech Supremacy Gaming Computer</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-12.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iPhone 11 Protective Cover with Tempered Film</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$80.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="shop-3" class="tab-pane padding-55-row-col">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-10.jpg" alt="">
+                                    </a>
+                                    <span class="badge-green badge-right-20 badge-top-20 badge-ptb-1">NEW</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Adapt Active Noise Cancelling Headphones</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$59.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-11.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iPhone 11 Case, Heavy Duty [Military Grade] </a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$20.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-12.jpg" alt="">
+                                    </a>
+                                    <span class="badge-theme-color badge-right-20 badge-top-20 badge-ptb-1">-25%</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Libratone Track Air+ True Wireless Active Noise</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$59.99</span>
+                                        <span class="new-price">$35.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-7.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Acer Aspire C24-865-UA91 AIO Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$50.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-6.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iBUYPOWER Gaming PC Computer Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-5.jpg" alt="">
+                                    </a>
+                                    <span class="badge-theme-color badge-right-20 badge-top-20 badge-ptb-1">-30%</span>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Andoer Gimbal 3-Axis Handheld Stabilizer</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$70.99</span>
+                                        <span class="new-price">$66.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-3.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Acer Aspire TC-885-UA92 Desktop</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$90.99</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-2.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">Polaroid ZIP Wireless Mobile Photo Mini Printer</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-1.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">CyberpowerPC Gamer Xtreme VR Gaming PC</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$70.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-8.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">External DVD CD Drive, Aluminum</a></h4>
+                                    <div class="product-price">
+                                        <span class="old-price">$70.99</span>
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-9.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">SkyTech Supremacy Gaming Computer</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$60.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div class="product-wrap mb-55">
+                                <div class="product-img pro-theme-color-border product-border mb-25">
+                                    <a href="product-details.html">
+                                        <img src="img/product/e-product-img-10.jpg" alt="">
+                                    </a>
+                                    <div class="product-action product-action-position-1 pro-action-theme-color">
+                                        <a title="Add to Cart" href="#"><i class="fa fa-cart-arrow-down"></i></a>
+                                        <a data-toggle="modal" data-target="#exampleModal" href="#"><i class="fa fa-search-plus"></i></a>
+                                        <a title="Add to Wishlist" href="#"><i class="fa fa-heart-o"></i></a>
+                                        <a title="Add to Compare" href="#"><i class="fa fa-compress"></i></a>
+                                    </div>
+                                </div>
+                                <div class="product-content">
+                                    <h4><a href="product-details.html">iPhone 11 Protective Cover with Tempered Film</a></h4>
+                                    <div class="product-price">
+                                        <span class="new-price">$80.00</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pro-pagination-style mt-30 text-center">
+                    <ul>
+                        <li><a class="active" href="#">01</a></li>
+                        <li><a href="#">02</a></li>
+                        <li><a href="#">03</a></li>
+                        <li><a href="#">04</a></li>
+                        <li><a href="#">05</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+            <div class="row">
+
+            </div>
+
+        </div><!------------------------------END CONTAINER-FLUID----------------------------->
+    </div><!---------------------END SHOP-CONTENT-------------------------------->
+</section><!-------------------END SECTION-SHOP------------------------------------>
+</div><!-------------------END main-container------------------------------>
+<footer class="main_footer">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-md-4">
+                <p>&copy; 2020 Wooder</p>
+            </div>
+            <div class="col-md-4">
+                <h6>wooder</h6>
+            </div>
+            <div class="col-md-4">
+                <p>
+                    designed by <span class="name_white">php</span><span class="name_red">knight</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+<script src="js/plugins/owl-carousel.js"></script>
+<script src="js/plugins/slick.js"></script>
+<script src="js/plugins/jquery.mb.ytplayer.min.js"></script>
+<script src="js/plugins/magnific-popup.js"></script>
+<script src="js/plugins/wow.js"></script>
+<script src="js/plugins/jarallax.min.js"></script>
+<script src="js/plugins/images-loaded.js"></script>
+<script src="js/plugins/tilt.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
