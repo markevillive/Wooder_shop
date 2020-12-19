@@ -444,7 +444,7 @@ section{
 }
 
 .login-register-btn button:hover {
-    background-color: #ff6e21;
+    background-color: #bea67c;
 }
 
 .remember-lost-wrap {
@@ -719,7 +719,7 @@ section{
     font-size: 16px;
     font-weight: 600;
     padding: 20px 30px;
-    background-color: #ff6e21;
+    background-color: #bea67c;
     -webkit-box-shadow: none;
     box-shadow: none;
 }
@@ -828,7 +828,7 @@ section{
 }
 
 .subscribe-form-3 .mc-form-3 .clear-3 input:hover {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .subscribe-form-4 .mc-form-4 {
@@ -1068,7 +1068,7 @@ section{
 }
 
 .shop-top-bar .shop-top-bar-left .shop-page-list ul li a:hover {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right {
@@ -1120,15 +1120,15 @@ section{
 }
 
 .shop-top-bar .shop-top-bar-right .shop-filter a.active {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right .shop-filter a.active i {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right .shop-filter:hover a {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1200,12 +1200,12 @@ section{
 
 .shop-top-bar .shop-top-bar-right .shop-short-by ul li a:hover {
     color: #fff;
-    background-color: #ff6e21;
+    background-color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right .shop-short-by ul li.active a {
     color: #fff;
-    background-color: #ff6e21;
+    background-color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right .shop-short-by:hover ul {
@@ -1215,11 +1215,11 @@ section{
 }
 
 .shop-top-bar .shop-top-bar-right .shop-short-by:hover > span {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-top-bar .shop-top-bar-right .shop-short-by:hover > span i {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1304,7 +1304,7 @@ section{
 }
 
 .product-filter-wrapper .product-filter .price-filter ul li a:hover, .product-filter-wrapper .product-filter .product-size ul li a:hover, .product-filter-wrapper .product-filter .product-color ul li a:hover, .product-filter-wrapper .product-filter .product-brands ul li a:hover {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .product-filter-wrapper .product-filter .product-color ul, .product-filter-wrapper .product-filter .product-size ul, .product-filter-wrapper .product-filter .product-brands ul {
@@ -1398,7 +1398,7 @@ section{
 }
 
 .shop-list-content .product-list-action > a:hover {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-list-content .product-list-action .pro-list-actioncart {
@@ -1433,7 +1433,7 @@ section{
 }
 
 .shop-list-content .product-list-action .pro-list-actioncart a:hover {
-    background-color: #ff6e21;
+    background-color: #bea67c;
 }
 
 @media only screen and (max-width: 767px) {
@@ -1563,7 +1563,7 @@ section{
 }
 
 .shop-collections-content h2 a:hover {
-    color: #ff6e21;
+    color: #bea67c;
 }
 
 .shop-collections-content p {
@@ -1664,8 +1664,8 @@ section{
 }
 
 .instra-btn a:hover {
-    background-color: #ff6e21;
-    border: 1px solid #ff6e21;
+    background-color: #bea67c;
+    border: 1px solid #bea67c;
     color: #fff;
 }
 
