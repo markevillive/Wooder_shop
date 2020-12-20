@@ -7,6 +7,11 @@
  CSS INDEX
     ===================
     1. Template default CSS
+        1.1 Margin style
+        1.2 Padding style
+
+        1.3 Section style
+
     2. Header style
 
     3. Footer style
@@ -122,6 +127,761 @@ section{
 }
 .scrollToTop:visited{
     outline: none;
+}
+/*=========================1.2 Padding style===========================*/
+
+/*************************
+        Padding top
+*************************/
+.pt-0 {
+    padding-top: 0;
+}
+
+.pt-5 {
+    padding-top: 5px !important;
+}
+
+.pt-10 {
+    padding-top: 10px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.pt-25 {
+    padding-top: 25px;
+}
+
+.pt-30 {
+    padding-top: 30px;
+}
+
+.pt-35 {
+    padding-top: 35px;
+}
+
+.pt-40 {
+    padding-top: 40px;
+}
+
+.pt-45 {
+    padding-top: 45px;
+}
+
+.pt-50 {
+    padding-top: 50px;
+}
+
+.pt-55 {
+    padding-top: 55px;
+}
+
+.pt-60 {
+    padding-top: 60px;
+}
+
+.pt-65 {
+    padding-top: 65px;
+}
+
+.pt-70 {
+    padding-top: 70px;
+}
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+.pt-85 {
+    padding-top: 85px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-85 {
+        padding-top: 45px;
+    }
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-80 {
+        padding-top: 50px;
+    }
+}
+
+.pt-95 {
+    padding-top: 95px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-95 {
+        padding-top: 45px;
+    }
+}
+
+.pt-90 {
+    padding-top: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-90 {
+        padding-top: 40px;
+    }
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-100 {
+        padding-top: 50px;
+    }
+}
+
+.pt-105 {
+    padding-top: 105px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-105 {
+        padding-top: 45px;
+    }
+}
+
+.pt-110 {
+    padding-top: 110px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-110 {
+        padding-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-110 {
+        padding-top: 50px;
+    }
+}
+
+.pt-115 {
+    padding-top: 115px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-115 {
+        padding-top: 65px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-115 {
+        padding-top: 45px;
+    }
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-120 {
+        padding-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-120 {
+        padding-top: 50px;
+    }
+}
+
+.pt-125 {
+    padding-top: 125px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-125 {
+        padding-top: 75px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-125 {
+        padding-top: 45px;
+    }
+}
+
+.pt-128 {
+    padding-top: 128px;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pt-130 {
+        padding-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pt-130 {
+        padding-top: 50px;
+    }
+}
+
+.pt-135 {
+    padding-top: 135px;
+}
+
+.pt-165 {
+    padding-top: 165px;
+}
+
+.pt-140 {
+    padding-top: 140px;
+}
+
+.pt-150 {
+    padding-top: 150px;
+}
+
+.pt-155 {
+    padding-top: 155px;
+}
+
+.pt-160 {
+    padding-top: 160px;
+}
+
+.pt-170 {
+    padding-top: 170px;
+}
+
+.pt-180 {
+    padding-top: 180px;
+}
+
+.pt-185 {
+    padding-top: 185px;
+}
+
+.pt-190 {
+    padding-top: 190px;
+}
+
+.pt-195 {
+    padding-top: 195px;
+}
+
+.pt-200 {
+    padding-top: 200px;
+}
+
+.pt-220 {
+    padding-top: 220px;
+}
+
+.pt-250 {
+    padding-top: 250px;
+}
+
+.pt-210 {
+    padding-top: 210px;
+}
+
+.pt-230 {
+    padding-top: 230px;
+}
+
+.pt-270 {
+    padding-top: 270px;
+}
+
+.pt-240 {
+    padding-top: 240px;
+}
+
+.pt-365 {
+    padding-top: 365px;
+}
+
+.pt-370 {
+    padding-top: 370px;
+}
+
+.pt-380 {
+    padding-top: 380px;
+}
+
+/*************************
+        Padding right
+*************************/
+.pr-0 {
+    padding-right: 0;
+}
+
+.pr-10 {
+    padding-right: 10px;
+}
+
+.pr-15 {
+    padding-right: 15px;
+}
+
+.pr-20 {
+    padding-right: 20px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.pr-40 {
+    padding-right: 40px;
+}
+
+.pr-50 {
+    padding-right: 50px;
+}
+
+.pr-60 {
+    padding-right: 60px;
+}
+
+.pr-70 {
+    padding-right: 70px;
+}
+
+.pr-80 {
+    padding-right: 80px;
+}
+
+.pr-90 {
+    padding-right: 90px;
+}
+
+.pr-100 {
+    padding-right: 100px;
+}
+
+.pr-110 {
+    padding-right: 110px;
+}
+
+.pr-120 {
+    padding-right: 120px;
+}
+
+.pr-130 {
+    padding-right: 130px;
+}
+
+.pr-140 {
+    padding-right: 140px;
+}
+
+.pr-155 {
+    padding-right: 155px;
+}
+
+.pr-270 {
+    padding-right: 270px;
+}
+
+/*************************
+        Padding bottom
+*************************/
+.pb-0 {
+    padding-bottom: 0;
+}
+
+.pb-5 {
+    padding-bottom: 5px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+}
+
+.pb-20 {
+    padding-bottom: 20px;
+}
+
+.pb-25 {
+    padding-bottom: 25px;
+}
+
+.pb-30 {
+    padding-bottom: 30px;
+}
+
+.pb-35 {
+    padding-bottom: 35px;
+}
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pb-45 {
+    padding-bottom: 45px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pb-55 {
+    padding-bottom: 55px;
+}
+
+.pb-60 {
+    padding-bottom: 60px;
+}
+
+.pb-65 {
+    padding-bottom: 65px;
+}
+
+.pb-70 {
+    padding-bottom: 70px;
+}
+
+.pb-75 {
+    padding-bottom: 75px;
+}
+
+.pb-80 {
+    padding-bottom: 80px;
+}
+
+.pb-85 {
+    padding-bottom: 85px;
+}
+
+.pb-90 {
+    padding-bottom: 90px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-90 {
+        padding-bottom: 40px;
+    }
+}
+
+.pb-95 {
+    padding-bottom: 95px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-95 {
+        padding-bottom: 45px;
+    }
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-100 {
+        padding-bottom: 50px;
+    }
+}
+
+.pb-105 {
+    padding-bottom: 105px;
+}
+
+.pb-110 {
+    padding-bottom: 110px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-110 {
+        padding-bottom: 60px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-110 {
+        padding-bottom: 40px;
+    }
+}
+
+.pb-115 {
+    padding-bottom: 115px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-115 {
+        padding-bottom: 65px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-115 {
+        padding-bottom: 45px;
+    }
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-120 {
+        padding-bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-120 {
+        padding-bottom: 50px;
+    }
+}
+
+.pb-125 {
+    padding-bottom: 125px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-125 {
+        padding-bottom: 75px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-125 {
+        padding-bottom: 45px;
+    }
+}
+
+.pb-130 {
+    padding-bottom: 130px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .pb-130 {
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-130 {
+        padding-bottom: 50px;
+    }
+}
+
+.pb-135 {
+    padding-bottom: 135px;
+}
+
+@media only screen and (max-width: 767px) {
+    .pb-135 {
+        padding-bottom: 86px;
+    }
+}
+
+.pb-140 {
+    padding-bottom: 140px;
+}
+
+.pb-145 {
+    padding-bottom: 145px;
+}
+
+.pb-150 {
+    padding-bottom: 150px;
+}
+
+.pb-160 {
+    padding-bottom: 160px;
+}
+
+.pb-170 {
+    padding-bottom: 170px;
+}
+
+.pb-190 {
+    padding-bottom: 190px;
+}
+
+.pb-175 {
+    padding-bottom: 175px;
+}
+
+.pb-180 {
+    padding-bottom: 180px;
+}
+
+.pb-280 {
+    padding-bottom: 280px;
+}
+
+.pb-200 {
+    padding-bottom: 200px;
+}
+
+.pb-205 {
+    padding-bottom: 205px;
+}
+
+.pb-210 {
+    padding-bottom: 210px;
+}
+
+.pb-215 {
+    padding-bottom: 215px;
+}
+
+.pb-285 {
+    padding-bottom: 285px;
+}
+
+.pb-270 {
+    padding-bottom: 270px;
+}
+
+.pb-290 {
+    padding-bottom: 290px;
+}
+
+/*************************
+    Padding left
+*************************/
+.pl-0 {
+    padding-left: 0;
+}
+
+.pl-10 {
+    padding-left: 10px;
+}
+
+.pl-15 {
+    padding-left: 15px;
+}
+
+.pl-20 {
+    padding-left: 20px;
+}
+
+.pl-30 {
+    padding-left: 30px;
+}
+
+.pl-35 {
+    padding-left: 35px;
+}
+
+.pl-40 {
+    padding-left: 40px;
+}
+
+.pl-45 {
+    padding-left: 45px;
+}
+
+.pl-50 {
+    padding-left: 50px;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+.pl-70 {
+    padding-left: 70px;
+}
+
+.pl-80 {
+    padding-left: 80px;
+}
+
+.pl-90 {
+    padding-left: 90px;
+}
+
+.pl-100 {
+    padding-left: 100px;
+}
+
+.pl-110 {
+    padding-left: 110px;
+}
+
+.pl-120 {
+    padding-left: 120px;
+}
+
+.pl-130 {
+    padding-left: 130px;
+}
+
+.pl-140 {
+    padding-left: 140px;
+}
+
+.pl-150 {
+    padding-left: 150px;
+}
+
+.pl-155 {
+    padding-left: 155px;
+}
+
+.pl-190 {
+    padding-left: 190px;
+}
+/*=========================1.3 Section style==========================*/
+.section-padding-1 .container-fluid {
+    padding: 0 120px;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1600px) {
+    .section-padding-1 .container-fluid {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1365px) {
+    .section-padding-1 .container-fluid {
+        padding: 0 15px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .section-padding-1 .container-fluid {
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .section-padding-1 .container-fluid {
+        padding: 0 40px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .section-padding-1 .container-fluid {
+        padding: 0 15px;
+    }
 }
 /*====================================2. Header style=======================================*/
 
@@ -1071,6 +1831,10 @@ section{
     color: #bea67c;
 }
 
+.shop-tab{
+    margin-right: 20px;
+}
+
 .shop-top-bar .shop-top-bar-right {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1711,7 +2475,7 @@ section{
 }
 
 .product-wrap .product-img.pro-theme-color-border::after {
-    border: 8px solid #ff6e21;
+    border: 8px solid #E11931;
 }
 
 .product-wrap .product-img.pro-border-none::after {
@@ -1775,7 +2539,7 @@ section{
 }
 
 .product-wrap .product-img > span.badge-theme-color {
-    background-color: #ff6e21;
+    background-color: #E11931;
 }
 
 .product-wrap .product-img > span.badge-style-2 {
@@ -1947,7 +2711,7 @@ section{
 }
 
 .product-wrap .product-img .product-action.pro-action-theme-color a {
-    background-color: #ff6e21;
+    background-color: #E11931;
     color: #fff;
 }
 
@@ -2103,7 +2867,7 @@ section{
     text-align: center;
     margin: 0 4px;
     color: #fff;
-    background-color: #ff6e21;
+    background-color: #E11931;
     -webkit-transform: scale(1.2);
     -ms-transform: scale(1.2);
     transform: scale(1.2);
@@ -2234,7 +2998,7 @@ section{
 }
 
 .product-wrap .product-content-2 h4 a:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-wrap .product-content-2 > span {
@@ -2250,7 +3014,7 @@ section{
 }
 
 .product-wrap .product-content-2 > span a:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-wrap .product-content-2 .product-rating-wrap {
@@ -2289,7 +3053,7 @@ section{
 
 .product-wrap .product-content-2 .product-price-2 span {
     font-weight: 600;
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-wrap .product-content-2 .product-price-2 span.old-price {
@@ -2331,7 +3095,7 @@ section{
 .product-wrap .product-content-3 .product-price-3 span {
     font-size: 18px;
     font-family: "Fredoka One", cursive;
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-wrap .product-content-3 .product-price-3 span.old-price {
@@ -2629,7 +3393,7 @@ section{
 }
 
 .modal-dialog .modal-content .modal-header .close:hover {
-    color: #ff6e21;
+    color: #E11931;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
@@ -2925,7 +3689,7 @@ section{
 }
 
 .product-details-content .product-details-action-wrap .product-details-cart a:hover {
-    background-color: #ff6e21;
+    background-color: #E11931;
 }
 
 .product-details-content .product-details-action-wrap .product-details-cart.product-dec-cart-mrg-none {
@@ -2939,7 +3703,7 @@ section{
 }
 
 .product-details-content .product-details-action-wrap .product-details-wishlist a:hover, .product-details-content .product-details-action-wrap .product-details-compare a:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2998,7 +3762,7 @@ section{
 }
 
 .product-details-content .product-details-info a:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-details-content .product-details-meta {
@@ -3017,7 +3781,7 @@ section{
 }
 
 .product-details-content .product-details-meta > span.categories a:hover {
-    color: #ff6e21;
+    color: #E11931;
     text-decoration: underline;
 }
 
@@ -3026,7 +3790,7 @@ section{
 }
 
 .product-details-content .product-details-meta > span a:hover {
-    color: #ff6e21;
+    color: #E11931;
     text-decoration: underline;
 }
 
@@ -3219,7 +3983,7 @@ section{
 }
 
 .quickview-slider-active.owl-carousel > .owl-nav div:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .easyzoom-style {
@@ -3265,7 +4029,7 @@ section{
 }
 
 .easyzoom-style a.easyzoom-pop-up:hover {
-    background-color: #ff6e21;
+    background-color: #E11931;
     color: #fff;
 }
 
@@ -3407,7 +4171,7 @@ section{
 }
 
 .product-dec-left span.pro-dec-icon:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-dec-left span.pro-dec-icon.pro-dec-prev {
@@ -3714,7 +4478,7 @@ section{
 }
 
 .sidebar-subscribe-wrap .sidebar-subscribe-form .mc-form .clear > input:hover {
-    background-color: #ff6e21;
+    background-color: #E11931;
 }
 
 .product-dec-slider.slick-vertical .slick-slide,
@@ -4323,7 +5087,7 @@ section{
 }
 
 .ratting-form-wrapper .ratting-form .form-submit input:hover {
-    background: #ff6e21;
+    background: #E11931;
 }
 
 .pro-dec-brand-img img {
@@ -4444,7 +5208,7 @@ section{
 }
 
 .product-dec-small-style2 span.pro-dec-icon:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .product-dec-small-style2 span.pro-dec-prev {
@@ -4530,7 +5294,7 @@ section{
 }
 
 .pro-details-group .single-group .pro-dec-title-stock .pro-dec-title h5 a:hover {
-    color: #ff6e21;
+    color: #E11931;
 }
 
 .pro-details-group .single-group .pro-dec-title-stock .pro-dec-price-stock span {
@@ -4587,7 +5351,7 @@ section{
 }
 
 .affiliate-btn a:hover {
-    background-color: #ff6e21;
+    background-color: #E11931;
 }
 
 .configurable-wrap {
