@@ -2,30 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b99d93ff-b8a6-46c7-a34d-a81f958b6620" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sample.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/browsersync.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/about.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/footer_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header_2_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/min-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/min-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/min-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/spinning-circles.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/table.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/table2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/shop.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/shop.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/demo.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/video/poster.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +55,7 @@
       <updated>1608474524792</updated>
       <workItem from="1608474539311" duration="9320000" />
       <workItem from="1608484631176" duration="671000" />
-      <workItem from="1608485569634" duration="6564000" />
+      <workItem from="1608485569634" duration="8578000" />
     </task>
     <servers />
   </component>
