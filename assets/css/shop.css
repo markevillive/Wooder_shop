@@ -3426,7 +3426,7 @@ textarea:focus {
 }
 
 .header-right-wrap .same-style a:hover {
-  color: #666;
+  color: #bea67c;
 }
 
 .header-right-wrap .same-style.same-style-mrg-dec {
@@ -3525,7 +3525,7 @@ textarea:focus {
 }
 
 .same-style-2 ul > li:hover > a {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .same-style-2 ul > li ul {
@@ -3605,7 +3605,7 @@ textarea:focus {
 }
 
 .same-style-2 ul > li ul > li > a:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .same-style-2 ul > li ul > li:last-child a {
@@ -3757,7 +3757,7 @@ textarea:focus {
 }
 
 .main-menu > nav > ul > li > ul.sub-menu-width li a:hover {
-  color: #E11931;
+  color: #bea67c;
   text-decoration: underline;
 }
 
@@ -4406,7 +4406,7 @@ textarea:focus {
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .sidebar-content-100-percent {
@@ -4473,11 +4473,11 @@ textarea:focus {
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .clickable-mainmenu-style1 > nav > ul > li:hover > a {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .clickable-mainmenu-style1 > nav > ul > li:hover > a i {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .clickable-mainmenu-style1 > nav > ul > li ul {
@@ -4511,11 +4511,11 @@ textarea:focus {
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .clickable-mainmenu-style1 > nav > ul > li ul li:hover > a {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .clickable-mainmenu-style1 > nav > ul > li ul li:hover > a i {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .header-aside-content .header-aside-menu {
@@ -4541,7 +4541,7 @@ textarea:focus {
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .header-aside-content .header-aside-menu nav ul li a:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .clickalbe-sidebar-wrapper-style-1 .clickalbe-sidebar-wrap .header-aside-content .header-aside-menu nav ul li:last-child a {
@@ -4917,7 +4917,7 @@ textarea:focus {
 }
 
 .mobile-menu-content-area .mobile-search form button:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .mobile-menu-content-area .mobile-search form button i {
@@ -4982,11 +4982,11 @@ textarea:focus {
 }
 
 .mobile-menu-content-area .mobile-curr-lang-wrap .single-mobile-curr-lang .lang-curr-dropdown ul li a:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .mobile-menu-content-area .mobile-curr-lang-wrap .single-mobile-curr-lang:hover > a {
-  color: #E11931;
+  color: #bea67c;
 }
 
 @media only screen and (max-width: 767px) {
@@ -8889,7 +8889,7 @@ textarea:focus {
 }
 
 .product-wrap .product-img.pro-theme-color-border::after {
-  border: 8px solid #E11931;
+  border: 8px solid #e17009;
 }
 
 .product-wrap .product-img.pro-border-none::after {
@@ -9125,7 +9125,7 @@ textarea:focus {
 }
 
 .product-wrap .product-img .product-action.pro-action-theme-color a {
-  background-color: #E11931;
+  background-color: #e17009;
   color: #fff;
 }
 
@@ -9281,7 +9281,7 @@ textarea:focus {
   text-align: center;
   margin: 0 4px;
   color: #fff;
-  background-color: #E11931;
+  background-color: #e17009;
   -webkit-transform: scale(1.2);
       -ms-transform: scale(1.2);
           transform: scale(1.2);
@@ -9412,7 +9412,7 @@ textarea:focus {
 }
 
 .product-wrap .product-content-2 h4 a:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .product-wrap .product-content-2 > span {
@@ -9428,7 +9428,7 @@ textarea:focus {
 }
 
 .product-wrap .product-content-2 > span a:hover {
-  color: #E11931;
+  color: #bea67c;
 }
 
 .product-wrap .product-content-2 .product-rating-wrap {
@@ -9467,7 +9467,7 @@ textarea:focus {
 
 .product-wrap .product-content-2 .product-price-2 span {
   font-weight: 600;
-  color: #E11931;
+  color: #bea67c;
 }
 
 .product-wrap .product-content-2 .product-price-2 span.old-price {
@@ -9509,7 +9509,7 @@ textarea:focus {
 .product-wrap .product-content-3 .product-price-3 span {
   font-size: 18px;
   font-family: "Fredoka One", cursive;
-  color: #E11931;
+  color: #bea67c;
 }
 
 .product-wrap .product-content-3 .product-price-3 span.old-price {
@@ -20222,7 +20222,7 @@ textarea:focus {
 }
 
 .modal-dialog .modal-content .modal-header .close:hover {
-  color: #E11931;
+  color: #e17009;
   -webkit-transform: rotate(90deg);
       -ms-transform: rotate(90deg);
           transform: rotate(90deg);

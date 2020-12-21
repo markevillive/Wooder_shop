@@ -2,24 +2,38 @@
 <html class="no-js" lang="en">
 
 <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Young - Multipurpose eCommerce HTML Template</title>
     <meta name="robots" content="noindex, follow" />
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
-
-    <!-- All CSS is here
-	============================================ -->
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <!-- Google font CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/signpainter-housescript.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!--Preloader style-->
+    <style>
+        .preloader{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 1002;
+            background-color: #000;
+        }
+
+    </style>
+    <title>WOODER | SHOP</title>
+    <!-- Fonts CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Local CSS-->
     <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/font-awesome.css">
     <link rel="stylesheet" href="assets/css/vendor/linearicons.css">
     <link rel="stylesheet" href="assets/css/vendor/themify-icons.css">
     <!-- Others CSS -->
@@ -32,83 +46,113 @@
     <link rel="stylesheet" href="assets/css/plugins/jquery-ui.css">
     <link rel="stylesheet" href="assets/css/plugins/easyzoom.css">
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <body>
 
     <div class="main-wrapper">
         <header class="inner-header">
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-                <a class="navbar-brand" href="index.html">Wooder</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link" href="blog.html">Blog</a>
-                        </li>
-                        <li class="nav-item ">
-                            <a class="nav-link " href="single.html">Single</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Pages
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="login-register.html">Login / Register</a>
-                                <a class="dropdown-item" href="404.html">404</a>
-                                <a class="dropdown-item" href="custom.html">Custom</a>
-                                <a class="dropdown-item" href="my-account.html">My account</a>
-                                <a class="dropdown-item" href="index-hebr.html">דף הבית</a>
-                                <a class="dropdown-item" href="shop.html">Shop</a>
-                                <div class="dropdown-divider"></div>
-                                <a class="dropdown-item" href="#">Something else here</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="header-small-device">
-                    <div class="container-fluid">
-                        <div class="row align-items-center">
-                            <div class="col-6">
-                                <div class="mobile-logo mobile-logo-width">
-                                    <a href="index.html">
-                                        <img alt="" src="assets/images/logo/logo.png">
+            <div class="header-large-device">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-9 col-lg-10">
+                            <nav class="navbar navbar-expand-lg navbar-dark ">
+                                <a class="navbar-brand" href="index.html">Wooder</a>
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <i class="fas fa-bars"></i>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                    <ul class="navbar-nav ">
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link" href="blog.html">Blog</a>
+                                        </li>
+                                        <li class="nav-item ">
+                                            <a class="nav-link " href="single.html">Single</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Features</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">Pricing</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                Pages
+                                            </a>
+                                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                                <a class="dropdown-item" href="login-register.html">Login / Register</a>
+                                                <a class="dropdown-item" href="404.html">404</a>
+                                                <a class="dropdown-item" href="custom.html">Custom</a>
+                                                <a class="dropdown-item" href="my-account.html">My account</a>
+                                                <a class="dropdown-item" href="index-hebr.html">דף הבית</a>
+                                                <a class="dropdown-item" href="shop.html">Shop</a>
+                                                <div class="dropdown-divider"></div>
+                                                <a class="dropdown-item" href="#">Something else here</a>
+                                            </div>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </nav>
+                        </div>
+                        <div class="col-xl-3 col-lg-2">
+                            <div class="header-right-wrap header-right-flex hr-mrg-handmade">
+                                <div class="same-style same-style-mrg-dec search-3-area">
+                                    <a class="search-toggle" href="#">
+                                        <i class="lnr lnr-magnifier s-open"></i>
+                                        <i class="ti-close s-close"></i>
                                     </a>
+                                    <div class="search-wrap-3">
+                                        <form action="#">
+                                            <input placeholder="Search products..." type="text">
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="same-style same-style-mrg-dec">
+                                    <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                                <div class="same-style same-style-mrg-dec">
+                                    <a class="cart-active" href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
+                                </div>
+                                <div class="same-style same-style-mrg-dec">
+                                    <a class="clickalbe-button-active" href="#"><i class="fa fa-bars"></i></a>
                                 </div>
                             </div>
-                            <div class="col-6">
-                                <div class="header-right-wrap header-right-flex">
-                                    <div class="same-style">
-                                        <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
-                                    </div>
-                                    <div class="same-style">
-                                        <a class="cart-active" href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
-                                    </div>
-                                    <div class="same-style">
-                                        <a class="mobile-menu-button-active" href="#"><i class="fa fa-bars"></i></a>
-                                    </div>
+                        </div>
+                    </div><!--END ROW-->
+                </div>
+            </div>
+            <div class="header-small-device">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <div class="mobile-logo mobile-logo-width">
+                                <a href="index.html">
+                                    Wooder
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="header-right-wrap header-right-flex">
+                                <div class="same-style">
+                                    <a href="wishlist.html"><i class="fa fa-heart-o"></i></a>
+                                </div>
+                                <div class="same-style">
+                                    <a class="cart-active" href="cart.html"><i class="fa fa-cart-arrow-down"></i></a>
+                                </div>
+                                <div class="same-style">
+                                    <a class="mobile-menu-button-active" href="#"><i class="fa fa-bars"></i></a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
-            </nav>
+            </div>
         </header>
         <div class="clickalbe-sidebar-wrapper-active clickalbe-sidebar-wrapper-style-1">
             <div class="clickalbe-sidebar-wrap clickalbe-sidebar-padding-dec">
@@ -132,19 +176,19 @@
                     <div class="aside-contact-info">
                         <ul>
                             <li><i class=" ti-alarm-clock "></i>Monday - Friday: 9:00 - 19:00</li>
-                            <li><i class=" ti-email "></i>Info@example.com</li>
-                            <li><i class=" ti-mobile "></i>(+55) 254. 254. 254</li>
-                            <li><i class=" ti-home "></i>Helios Tower 75 Tam Trinh Hoang - Ha Noi - Viet Nam</li>
+                            <li><i class=" ti-email "></i>wooder@example.com</li>
+                            <li><i class=" ti-mobile "></i>(+12) 345. 234. 345</li>
+                            <li><i class=" ti-home "></i>Office 555, Trump Tower, Fifth Avenue 725, New York, USA </li>
                         </ul>
                     </div>
                     <div class="social-icon-style-2 mb-25">
-                        <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                        <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                        <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                        <a class="behance" href="#"><i class="fa fa-behance"></i></a>
+                        <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="google-plus" href="#"><i class="fab fa-google-plus-g"></i></a>
+                        <a class="behance" href="#"><i class="fab fa-behance"></i></a>
                     </div>
                     <div class="copyright copyright-gray-2">
-                        <p>© 2020 <a target="_blank" href="https://hasthemes.com/">Young.</a> All rights reserved.</p>
+                        <p>© 2020 <a target="_blank" href="#">Wooder.</a> All rights reserved.</p>
                     </div>
                 </div>
             </div>
@@ -326,10 +370,10 @@
                             </ul>
                         </div>
                         <div class="social-icon-style-2 mb-25">
-                            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                            <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                            <a class="behance" href="#"><i class="fa fa-behance"></i></a>
+                            <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="google-plus" href="#"><i class="fab fa-google-plus-g"></i></a>
+                            <a class="behance" href="#"><i class="fab fa-behance"></i></a>
                         </div>
                     </div>
                 </div>
@@ -1099,88 +1143,37 @@
                             </div>
                         </div>
                     </div>
-                    <div class="pro-pagination-style mt-30 text-center">
-                        <ul>
-                            <li><a class="active" href="#">01</a></li>
-                            <li><a href="#">02</a></li>
-                            <li><a href="#">03</a></li>
-                            <li><a href="#">04</a></li>
-                            <li><a href="#">05</a></li>
+                    <div class=" mt-30 text-center">
+                        <ul class="pagination">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item active" aria-current="page">
+                                <a class="page-link" href="#">2 <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="subscribe-area bg-black pt-70 pb-80">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-3">
-                        <div class="subscribe-title">
-                            <h3>Stay in touch</h3>
-                        </div>
-                    </div>
-                    <div class="col-lg-9">
-                        <div id="mc_embed_signup" class="subscribe-form subscribe-mrg-1">
-                            <form id="mc-embedded-subscribe-form" class="validate subscribe-form-style" novalidate="" target="_blank" name="mc-embedded-subscribe-form" method="post" action="http://devitems.us11.list-manage.com/subscribe/post?u=6bbb9b6f5827bd842d9640c82&amp;id=05d85f18ef">
-                                <div id="mc_embed_signup_scroll" class="mc-form">
-                                    <input class="email" type="email" required="" placeholder="Enter your email address..." name="EMAIL" value="">
-                                    <div class="mc-news" aria-hidden="true">
-                                        <input type="text" value="" tabindex="-1" name="b_6bbb9b6f5827bd842d9640c82_05d85f18ef">
-                                    </div>
-                                    <div class="clear">
-                                        <input id="mc-embedded-subscribe" class="button" type="submit" name="subscribe" value="Subscribe">
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <footer class="footer-area section-padding-1">
+        <footer class="main-footer">
             <div class="container-fluid">
-                <div class="footer-top pt-50 pb-50">
-                    <div class="row align-items-center">
-                        <div class="col-lg-3">
-                            <div class="footer-logo">
-                                <a href="index.html">
-                                    <img src="assets/images/logo/logo.png" alt="logo">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-6">
-                            <div class="footer-menu">
-                                <nav>
-                                    <ul>
-                                        <li><a class="active" href="index.html">HOME</a></li>
-                                        <li><a href="#">PAGES</a></li>
-                                        <li><a href="shop-fullwide.html">SHOP</a></li>
-                                        <li><a href="shop-collection.html">COLLECTIONS</a></li>
-                                        <li><a href="blog.html">BLOG</a></li>
-                                        <li><a href="#">ELEMENTS</a></li>
-                                        <li><a href="contact.html">CONTACT</a></li>
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <div class="col-lg-3">
-                            <div class="social-icon-style social-icon-right">
-                                <a href="#"><i class="fa fa-instagram"></i></a>
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
-                                <a href="#"><i class="fa fa-google"></i></a>
-                            </div>
-                        </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <p>&copy; 2020 Wooder</p>
                     </div>
-                </div>
-                <div class="footer-botoom border-top-1">
-                    <div class="row">
-                        <div class="col-12">
-                            <div class="copyright text-center copyright-ptb">
-                                <p>© 2020 YOUNG. <a target="_blank" href="https://hasthemes.com/">All rights reserved.</a></p>
-                            </div>
-                        </div>
+                    <div class="col-md-4">
+                        <h6>Wooder</h6>
+                    </div>
+                    <div class="col-md-4">
+                        <p>
+                            designed by <span class="name_white">php</span><span class="name_red">knight</span>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -1238,10 +1231,10 @@
                                     <div class="product-details-social-wrap">
                                         <span>SHARE THIS PRODUCT</span>
                                         <div class="product-details-social">
-                                            <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                            <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                            <a class="pinterest" href="#"><i class="fa fa-pinterest-p"></i></a>
-                                            <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
+                                            <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                                            <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                                            <a class="google-plus" href="#"><i class="fab fa-google-plus-g"></i></a>
+                                            <a class="behance" href="#"><i class="fab fa-behance"></i></a>
                                         </div>
                                     </div>
                                 </div>
