@@ -25,13 +25,14 @@
 
 body{
     display: flex;
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
     color: #464646;
 }
 .main-container{
-    flex: 1;
+    min-height: 100vh;
+    flex-grow: 1;
 }
 img{
     max-width: 100%;
