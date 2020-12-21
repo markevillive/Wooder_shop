@@ -197,3 +197,59 @@ section{
     font-weight: 600;
     text-transform: uppercase;
 }
+
+/*========================================4. Pages style=============================================*/
+
+/*========================================4. Pages style=============================================*/
+/*=======================4.1 index.html=======================*/
+/*==================Section_about==================*/
+.section_about a:hover h3{
+    color: #bea67c;
+
+}
+.more{
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.more{
+    text-decoration-line: underline;
+    text-decoration-style: solid 2px;
+    text-decoration-color: #bea67c;
+}
+
+
+
+.more:hover{
+    color: #bea67c;
+    text-decoration: none;
+}
+/*==========================================SECTION NEWS=============================================*/
+
+.section_news{
+    background-color: #dcdcdc;
+
+}
+.section_news h3{
+    text-align: center;
+}
+.tumb{
+    border: 5px solid #fff;
+    box-shadow: 0 0 10px rgba(00,0,0,.5);
+    margin: 0 20px 20px 0;
+    float:none;
+}
+
+
+
+.article-preview{
+    margin-bottom: 20px;
+}
+.article-date{
+    color: #bea67c;
+}
