@@ -379,3 +379,39 @@ section{
 .blockquote-footer{
     color: #bea67c;
 }
+/*===========================================404 style=====================================*/
+.section-404{
+    background: url("../images/error.png") center no-repeat;
+    font-family: Montserrat, sans-serif !important;
+    background-size: cover;
+    height: 100vh;
+}
+.error-content {
+    margin-top: 120px;
+}
+.error-content h1 {
+    font-size: 250px;
+    color: #ff0000;
+    margin: 0;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.error-content h3 {
+    font-size: 64px;
+    color: #ff0000;
+    margin: 0px 0 70px;
+    text-shadow: 1px 1px 2px black, 0 0 1em red;
+}
+.error-content .btn-light{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 20px;
+    border: #bea67c solid 2px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+
+}
+.error-content .btn-light:hover{
+    background-color: #bea67c;
+    border: #000 solid 2px;
+}

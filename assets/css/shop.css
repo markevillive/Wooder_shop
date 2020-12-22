@@ -2696,6 +2696,14 @@ textarea:focus {
   background: #000;
 }
 
+.btn-hover a.bg-red-hover::after {
+    background: #E11931;
+}
+
+.btn-hover a.bg-special-hover::after {
+    background: #bea67c;
+}
+
 .btn-hover a.bg-green-hover::after {
   background: #3ad9b1;
 }
@@ -19328,7 +19336,7 @@ textarea:focus {
   font-size: 250px;
   color: #fff;
   margin: 0;
-  font-family: "Playfair Display", serif;
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
@@ -19365,7 +19373,7 @@ textarea:focus {
   font-size: 64px;
   color: #fff;
   margin: 0px 0 70px;
-  font-family: "Playfair Display", serif;
+
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
@@ -25450,7 +25458,9 @@ h3.cart-page-title {
   display: inline-block;
   line-height: 1;
   color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
   border: 2px solid #fff;
+  border-radius: 10px;
   text-transform: uppercase;
   z-index: 2;
   font-size: 16px;
@@ -25461,7 +25471,7 @@ h3.cart-page-title {
 }
 
 .comming-soon-btn a:hover, .error-btn a:hover {
-  border: 2px solid transparent;
+  border: 2px solid #000;
 }
 
 /*-------- 30. Contact style ---------*/
