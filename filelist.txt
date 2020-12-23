@@ -1,0 +1,19 @@
+1. 404.html
+2. about-us.html
+3. blog.html
+4. cart.html
+5. checkout.html
+6. compare.html
+7. contact.html
+8. empty-cart.html
+9. faq.html
+10. index.html
+11. login-register.html
+12.  my-account.html
+13. order-tracking.html
+14. product-details.html
+15. shop.html
+16. single.html
+17. store.html
+18. wishlist.html
+19. 
