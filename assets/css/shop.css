@@ -21391,8 +21391,15 @@ textarea:focus {
     max-width: 100%;
   }
 }
+.description-review-topbar a{
+    color: #000;
+    font-weight: 500;
 
-
+}
+.description-review-topbar a:hover{
+    color: #fff;
+    background-color: #bea67c;
+}
 
 .pro-details-banner {
   overflow: hidden;
