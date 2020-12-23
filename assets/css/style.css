@@ -398,7 +398,7 @@ section{
 .error-content h3 {
     font-size: 64px;
     color: #ff0000;
-    margin: 0px 0 70px;
+    margin: 0 0 70px;
     text-shadow: 1px 1px 2px black, 0 0 1em red;
 }
 .error-content .btn-light{
@@ -414,4 +414,134 @@ section{
 .error-content .btn-light:hover{
     background-color: #bea67c;
     border: #000 solid 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*==============================================MEDIA============================================*/
+
+/*  Large Device, Wide screens */
+@media only screen and (max-width: 1200px) {
+
+
+}
+/* Medium Device, Desktops */
+@media only screen and (max-width : 992px){
+
+}
+@media only screen and (max-width: 991px){
+
+
+}
+
+
+@media only screen and (max-width: 846px){
+
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px){
+
+
+
+}
+@media only screen and (max-width: 568px){
+    .error-content h1{
+        font-size: 150px;
+    }
+
+
+}
+@media only screen and (max-width: 540px){
+
+}
+
+@media only screen and (max-width: 524px){
+    .main-header h2{
+        font-size: 80px;
+
+    }
+
+}
+
+@media only screen and (max-width: 519px){
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+
+
+}
+
+@media only screen and (max-width: 424px) {
+    .main-header h2{
+        font-size: 50px;
+
+    }
+
+}
+@media only screen and (max-width: 422px) {
+    .error-content h3{
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width: 380px){
+
+}
+@media only screen and (max-width: 366px){
+    .error-content h1{
+        font-size: 100px;
+    }
+}
+@media only screen and (max-width : 360px)  {
+
+}
+@media only screen and (max-width : 346px)  {
+    .error-content .btn-light{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width : 320px)  {
+
+}
+
+@media only screen and (max-width : 278px)  {
+    .main-header h2{
+        font-size: 40px;
+
+    }
+}
+@media only screen and (max-width : 250px)  {
+    .error-content h1{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width : 240px)  {
+
+}
+@media only screen and (max-width : 176px)  {
+
 }
