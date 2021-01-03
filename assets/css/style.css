@@ -167,6 +167,15 @@ section{
     background: url("../images/header_2_bg.jpg") center no-repeat;
     background-size: cover;
 }
+
+/*==========================2.2.3 main-menu-style============================*/
+.language-option-en::after{
+    background: rgba(0,0,0, 0) url("../images/flags/US.png") right no-repeat;
+    content: "";
+    height: 16px;
+    position: absolute;
+
+}
 /*========================================3. Footer style=============================================*/
 /*==============3.1. main-footer==============*/
 .main-footer{
