@@ -19980,7 +19980,7 @@ textarea:focus {
 }
 
 .skill-bar .skill-bar-item .progress {
-  background-color: #EFEFEF;
+  background-color: #bddcf8;
   border-radius: 0;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -19990,14 +19990,13 @@ textarea:focus {
 }
 
 .skill-bar .skill-bar-item .progress .progress-bar {
-  background-color: #bea67c;
   -webkit-box-shadow: none;
           box-shadow: none;
   position: relative;
 }
 
 .skill-bar .skill-bar-item .progress .progress-bar span.text-top {
-  color: #262626;
+  color: #000 !important;
   font-size: 15px;
   text-transform: uppercase;
   position: absolute;

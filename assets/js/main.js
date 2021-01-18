@@ -22,6 +22,9 @@ $(function (){
     });
     
 });
+$(document).ready(function () {
+    bsCustomFileInput.init()
+})
 /*-----------------------
        Shop filter active
    ------------------------- */
