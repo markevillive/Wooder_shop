@@ -390,7 +390,7 @@ section{
 }
 /*===========================================404 style=====================================*/
 .section-404{
-    background: url("../images/error.png") center no-repeat;
+    background: url("../images/bg/error.png") center no-repeat;
     font-family: Montserrat, sans-serif !important;
     background-size: cover;
     height: 100vh;
@@ -424,7 +424,11 @@ section{
     background-color: #bea67c;
     border: #000 solid 2px;
 }
-
+/*-------------------coming-soon style------------------------------*/
+.comming-soon-area{
+    background-image: url("../images/bg/coming-soon-bg-1.png");
+    min-height: 100vh;
+}
 
 
 
